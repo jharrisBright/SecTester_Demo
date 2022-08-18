@@ -83,7 +83,7 @@ BRIGHT_TOKEN = <your_API_key_here>
 Finally, you have to build and run services with Docker. Start Docker, and issue the command as follows:
 
 ```bash
-$ docker compose up -d
+$ sudo docker compose-up -d
 ```
 
 While having the application running, open a browser and type `http://localhost:3000/swagger`, and hit enter.
